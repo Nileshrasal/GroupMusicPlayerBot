@@ -7,8 +7,27 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_photo("https://telegra.ph/file/ed4f68f51b48861989d6e.jpg")
-    await message.reply_text(
+    await message.reply_photo("https://telegra.ph/file/9c71bd26b7772df92684a.jpg")
+    await message.reply_text("🔰𝗦𝗧𝗨𝗗𝗬 𝗙𝗟𝗢𝗪𝗘𝗥🔰
+
+ 🌹गणपती बाप्पा मोरया 🌺🌸
+
+              🙌🙌🙇🏻‍♀🙇🏻👩🏻‍🎓
+
+#𝗠𝗛_𝗖𝗘𝗧 #𝗡𝗘𝗘𝗧 #𝗝𝗘𝗘_𝗤𝗨𝗜𝗭 
+
+🏷️ DAILY QUIZ  
+ 👉@STUDY_FLOWER_QUIZ_GROUP
+
+⚜NOTES CHANNEL
+👉
+@STUDY_FLOWER_NOTES
+
+⚜NOTES BOT {#MHT_CET #JEE  #NEET NOTES PROVIDER}
+👉 @STUDY_FLOWER_BOT
+
+🕊OWNER: 🔰⚡𝗣𝗿𝗶𝗻𝗰𝗲 𝗣𝗮𝘁𝗶𝗹⚡🔰
+@Princepatil96k") 
         f"""**Hey, I'm 『『PRINCE PATIL 𝙼𝚄𝚂𝙸𝙲』 Bᴏᴛ |🎵
 
 I can play ꬺᶙȿᶖɕ  in your group's voice CHAT Developed by [『PRINCE PATIL✰』](https://t.me/Princepatil96k)
@@ -19,14 +38,14 @@ Add me to your group and play music freely😆!**
             [
                 [
                     InlineKeyboardButton(
-                        "𝐎𝐖𝐍𝐄𝐑", url="https://t.me/Princepatil96k")
+                        "PRINCE PATIL CREATER", url="https://t.me/Princepatil96k")
                   ],[
                     InlineKeyboardButton(
-                        "𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/STUDY_FLOWER"
+                        "PRINCE MUSIC SUPPORT", url="https://t.me/PrinceMusicWorld1"
                     ),
                 ],[ 
                     InlineKeyboardButton(
-                        "GROUP ME LEJAO 😆", url="https://t.me/PRINCE_PATIL_OP_BOT?startgroup=true"
+                        "PRINCE MUSIC KO LE JAO😉", url="https://t.me/PRINCE_PATIL_OP_BOT?startgroup=true"
                     )]
             ]
         ),
