@@ -92,7 +92,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                    & ~filters.via_bot)
 async def play(_, message: Message):
 
-    lel = await message.reply("🔄 **connecting to server**")
+    lel = await message.reply("🔄 **RUKH BHAI PRINCE SONG LAGA RAHA HAI**")
     
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -112,13 +112,13 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>Add me as admin of yor group first!</b>")
+                        "<b>PRINCE PATIL MUSIC Add me as admin of yor group first!</b>")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**i joined this group for play music 🎵**")
+                        message.chat.id, "**i joined this group for prince patil music play music 🎵**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -190,26 +190,26 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝐘𝐨𝐮𝐭𝐮𝐛𝐞 🎥",
+                            text="PRINCE MUSIC DUNIYA 🎥",
                             url=f"{url}"),
                         InlineKeyboardButton(
-                            text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓",
-                            url=f"https://t.me/STUDY_FLOWER")
+                            text="PRINCE MUSIC SUPPORT",
+                            url=f"https://t.me/PrinceMusicWorld1")
 
                     ]
                 ]
             )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/9623c1b38ce338968f8ac.jpg"
+            thumb_name = "https://telegra.ph/file/9c71bd26b7772df92684a.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓",
-                                url=f"https://t.me/STUDY_FLOWER")
+                                text="🔰⚡PRINCE PATIL⚡🔰",
+                                url=f"https://t.me/Princepatil96k")
 
                         ]
                     ]
@@ -258,11 +258,11 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝐘𝐨𝐮𝐭𝐮𝐛𝐞 🎥",
+                            text="PRINCE MUSIC DUNIYA 🎥",
                             url=f"{url}"),
                         InlineKeyboardButton(
-                            text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓",
-                            url=f"https://t.me/STUDY_FLOWER")
+                            text="🔰⚡PRINCE PATIL⚡🔰",
+                            url=f"https://t.me/Princepatil96k")
 
                     ]
                 ]
